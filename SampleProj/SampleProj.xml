@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SampleProj</name>
+    </assembly>
+    <members>
+        <member name="M:SampleProj.Services.BaseService`1.CreateAsync(`0)">
+            <summary>
+            generic async method for create any object
+            </summary>
+            <param name="createObject"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SampleProj.Services.BaseService`1.UpdateAsync(`0)">
+            <summary>
+            generic async method for update any object
+            </summary>
+            <param name="updateObject"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SampleProj.Services.BaseService`1.DeleteAsync(System.Int32)">
+            <summary>
+            generic async method for delete any object
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SampleProj.Services.BaseService`1.GetAllAsync">
+            <summary>
+            generic async method for get all objects
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SampleProj.Services.BaseService`1.GetAllPerPageAsync(System.Int32,System.Int32)">
+            <summary>
+            generic async method for get all objects per page
+            </summary>
+            <param name="page"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
